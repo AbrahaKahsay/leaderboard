@@ -8,6 +8,10 @@ module.exports = {
     static: './dist',
 
   },
+  experiments: {
+    topLevelAwait: true
+    
+    },
   plugins: [
 
     new HtmlWebpackPlugin({
