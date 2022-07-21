@@ -36,8 +36,6 @@ body {
   padding: 2px;
 }
 
-
-
 #list ul li:nth-child(2n) {
   background: rgb(176, 178, 199);
 }

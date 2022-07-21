@@ -9,9 +9,9 @@ module.exports = {
 
   },
   experiments: {
-    topLevelAwait: true
-    
-    },
+    topLevelAwait: true,
+
+  },
   plugins: [
 
     new HtmlWebpackPlugin({
