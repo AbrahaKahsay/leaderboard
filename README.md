@@ -30,6 +30,7 @@ Clone the repository and setup the linter
 
 - npm ( Node Package Manager )
 - git and Github Account
+- webpack
 
 ### Setup
 
