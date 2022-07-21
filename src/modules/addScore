@@ -14,12 +14,21 @@ const getScores = async () => {
     return scores.json();
 };
 
-const createScore = (user, score, element){
+const createScore = (user, score, element)=> {
     const newElement = document.createElement('li');
     newElement.textContent = `${user}: ${score}`;
-    element.appendChild(newElement)
-}
+    element.appendChild(newElement);
+};
+
+const createList = (array, element) => {
+    element.innerHTML = '';
+    array.forEach(item => {
+        const newItem = document.createElement('li');
+        newItem.textContent = `${item.user}: ${item.score}`;
+        element.appendChild(newItem);
+    });
+};
 
 export {
-    addScore, getScores, createScore 
+    addScore, getScores, createScore, createList
 }
