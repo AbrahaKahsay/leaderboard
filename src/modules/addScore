@@ -8,3 +8,14 @@ const addScore = async (object) => {
         body: object,
     });
 }
+
+const getScores = async () => {
+    const scores = await fetch(scoreURL);
+    return scores.json();
+};
+
+
+
+export {
+    addScore, getScores, 
+}
