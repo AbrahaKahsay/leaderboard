@@ -14,8 +14,12 @@ const getScores = async () => {
     return scores.json();
 };
 
-
+const createScore = (user, score, element){
+    const newElement = document.createElement('li');
+    newElement.textContent = `${user}: ${score}`;
+    element.appendChild(newElement)
+}
 
 export {
-    addScore, getScores, 
+    addScore, getScores, createScore 
 }
