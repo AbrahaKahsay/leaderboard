@@ -22,3 +22,7 @@ const creatGame = async (data) => {
         setID(object);
     });
 };
+
+export {
+    setID, getID, creatGame
+};
