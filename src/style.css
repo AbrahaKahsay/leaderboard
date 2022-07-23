@@ -1,50 +1,81 @@
 * {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: blueviolet;
-  margin-top: 10%;
-  margin-left: 10%;
-  width: 50%;
+  background-color: #a0aecd;
+  margin: 10% 20%;
+}
+
+h1 {
+  margin-bottom: 5%;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
 }
 
 .board {
   display: flex;
-
-  /* justify-content: space-between; */
-  gap: 100px;
+  gap: 10%;
+  justify-items: center;
   padding: 10px;
-  border: 2px solid black;
-  max-width: 350px;
+  height: auto;
 }
 
 #score-header {
   display: flex;
-  gap: 60px;
-  padding: 10px;
+  justify-content: space-between;
+  padding: 2px 0;
+  margin-bottom: 15px;
+  flex-grow: 2;
+  align-items: center;
+}
+
+#input h2 {
+  padding-top: 10px;
 }
 
 #list {
   border: 2px solid rgb(29, 27, 27);
-  max-width: 300px;
 }
 
 #list ul li {
   list-style: none;
-  padding: 2px;
+  padding: 3px;
 }
 
-#list ul li:nth-child(2n) {
-  background: rgb(176, 178, 199);
+#list ul li:nth-child(2n+1) {
+  background: rgb(235, 236, 240);
 }
 
 #name,
 #score {
-  margin: 10px 0;
+  margin: 8px 0;
+  padding: 3px;
 }
 
 #scores {
-  width: 400px;
+  flex-grow: 2;
+}
+
+#input {
+  flex-grow: 0.5;
+}
+
+#refresh,
+#submit {
+  padding: 2px;
+  width: 60px;
+  height: 25px;
+  box-shadow: 2px 4px;
+  cursor: pointer;
+}
+
+#form button {
+  align-self: flex-end;
 }
