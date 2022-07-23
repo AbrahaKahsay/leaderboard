@@ -1,4 +1,4 @@
-const id = 'Zl4d7IVkemOTTVg2fUdz';
+const id = '8XzEIsjyhszFgOK9DbUH';
 const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores/`;
 const addScore = async (object) => {
   await fetch(url, {
