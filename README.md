@@ -13,7 +13,7 @@ It has the objectives of using:
 
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/75738563/180295279-92885e11-47cf-46f7-a25b-86b3ef0deb88.png)
+![image](https://user-images.githubusercontent.com/75738563/180610487-db1fc1d2-79f0-4e2c-a8f4-bdf879e0ff46.png)
 
 ## Built with
 
