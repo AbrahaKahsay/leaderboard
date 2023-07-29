@@ -71,7 +71,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Abraha Kahsay**
 
 - GitHub: [@AbrahaKahsay](https://github.com/AbrahaKahsay)
-- Twitter: [@Alamsbut](https://twitter.com/Alamsbut)
+- Twitter: [@abraha_ka](https://twitter.com/abraha_ka)
 - LinkedIn: [abraha-kahsay](www.linkedin.com/in/abraha-kahsay-492771135/)
 
 ## Contributers
